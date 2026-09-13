@@ -15,29 +15,6 @@ Whether dropping standard E tuning down to Drop A, shifting semitones in real-ti
 
 ---
 
-## Repository Structure
-
-```
-DROP-THE-HAMMER-DSP-GUITAR-PLUGIN/
-├── VST3/
-│   ├── DONT DROP THE HAMMER.vst3/               # Complete 64-bit VST3 bundle with moduleinfo
-│   └── INSTALL_DONT_DROP_THE_HAMMER_VST3.bat    # Automated 1-click Windows VST3 Installer
-├── DLL/
-│   └── DONT DROP THE HAMMER.dll                 # Standalone 64-bit VST/PE dynamic library
-├── Standalone/
-│   └── DONT DROP THE HAMMER.exe                 # Zero-host standalone desktop app with ASIO
-├── Raw Files/
-│   ├── Source/                                  # Complete C++20 DSP and GUI source code
-│   ├── Images/                                  # High-resolution embedded UI binary assets
-│   ├── Background/                              # Original artwork, pedals, and branding renders
-│   └── CMakeLists.txt                           # CMake multi-target build configuration
-├── DROP THE HAMMER.png                          # Hero interface graphic
-├── LICENSE                                      # Project license
-└── README.md                                    # Documentation and user manual
-```
-
----
-
 ## Key Features
 
 ### 1. Zero-Artifact Polyphonic Pitch Shifter
@@ -152,6 +129,13 @@ cmake -B build -G "Visual Studio 17 2022" -A x64
 cmake --build build --config Release --target DontDropTheHammer_VST3 DontDropTheHammer_Standalone
 ```
 
+All the raw files are supplied for your adjustments and builds - stay RAD Metal Heads... The Edge Of Fear 
+
+Youtube Channel - https://www.youtube.com/@theedgeoffearmetal
+
+Instagram - https://www.instagram.com/theedgeoffear/
+
+Soundcloud - https://soundcloud.com/user-290758847
 ---
 
 ## License & Credits
